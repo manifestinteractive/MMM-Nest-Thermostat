@@ -1,0 +1,24 @@
+{
+  "name": "MMM-Nest-Thermostat",
+  "version": "1.0.0",
+  "description": "Nest Thermostat",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manifestinteractive/MMM-Nest-Thermostat.git"
+  },
+  "keywords": [
+    "magicmirror2",
+    "module",
+    "nest",
+    "thermostat"
+  ],
+  "author": "Peter Schmalfeldt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manifestinteractive/MMM-Nest-Thermostat/issues"
+  },
+  "homepage": "https://github.com/manifestinteractive/MMM-Nest-Thermostat#readme"
+}

@@ -1,0 +1,151 @@
+.MMM-Nest-Thermostat .dial {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.MMM-Nest-Thermostat .dial.away .dial__ico__leaf {
+  visibility: hidden;
+}
+.MMM-Nest-Thermostat .dial.away .dial__lbl--target {
+  visibility: hidden;
+}
+.MMM-Nest-Thermostat .dial.away .dial__lbl--target--half {
+  visibility: hidden;
+}
+.MMM-Nest-Thermostat .dial.away .dial__lbl--away {
+  opacity: 1;
+}
+.MMM-Nest-Thermostat .dial .dial__shape {
+  transition: fill 0.5s;
+}
+.MMM-Nest-Thermostat .dial__ico__leaf {
+  fill: #13EB13;
+  opacity: 0;
+  transition: opacity 0.5s;
+  pointer-events: none;
+}
+.MMM-Nest-Thermostat .dial.has-leaf .dial__ico__leaf {
+  display: block;
+  opacity: 1;
+  pointer-events: initial;
+}
+.MMM-Nest-Thermostat .dial__editableIndicator {
+  fill: white;
+  fill-rule: evenodd;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.MMM-Nest-Thermostat .dial--edit .dial__editableIndicator {
+  opacity: 1;
+}
+.MMM-Nest-Thermostat .dial--state--off .dial__shape {
+  fill: #111;
+}
+.MMM-Nest-Thermostat .dial--state--heating .dial__shape {
+  fill: #E36304;
+}
+.MMM-Nest-Thermostat .dial--state--cooling .dial__shape {
+  fill: #007AF1;
+}
+.MMM-Nest-Thermostat .dial__ticks path {
+  fill: rgba(255, 255, 255, 0.3);
+}
+.MMM-Nest-Thermostat .dial__ticks path.active {
+  fill: rgba(255, 255, 255, 0.8);
+}
+.MMM-Nest-Thermostat .dial text {
+  fill: white;
+  text-anchor: middle;
+  font-family: Helvetica, sans-serif;
+  alignment-baseline: central;
+}
+.MMM-Nest-Thermostat .dial__lbl--target {
+  font-size: 120px;
+  font-weight: normal;
+}
+
+.MMM-Nest-Thermostat .dial__lbl--name {
+  font-size: 30px;
+  font-weight: normal;
+  opacity: 0.5;
+}
+
+.MMM-Nest-Thermostat .dial__lbl--name.dial__medium {
+  font-size: 24px;
+}
+
+.MMM-Nest-Thermostat .dial__lbl--name.dial__small {
+  font-size: 20px;
+}
+
+.MMM-Nest-Thermostat .dial__lbl--name.dial__mini {
+  font-size: 10px;
+  opacity: 0.65;
+}
+
+.MMM-Nest-Thermostat .dial__lbl--target.dial__medium {
+  font-size: 90px;
+}
+
+.MMM-Nest-Thermostat .dial__lbl--target.dial__small {
+  font-size: 45px;
+}
+
+.MMM-Nest-Thermostat .dial__lbl--target.dial__mini {
+  font-size: 30px;
+}
+
+.MMM-Nest-Thermostat .dial__lbl--target--half {
+  font-size: 40px;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.1s;
+}
+.MMM-Nest-Thermostat .dial__lbl--target--half.shown {
+  opacity: 1;
+  transition: opacity 0s;
+}
+.MMM-Nest-Thermostat .dial__lbl--ambient {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.MMM-Nest-Thermostat .dial__lbl--ambient.dial__medium {
+  font-size: 20px;
+}
+
+.MMM-Nest-Thermostat .dial__lbl--ambient.dial__small {
+  font-size: 16px;
+}
+
+.MMM-Nest-Thermostat .dial__lbl--ambient.dial__mini {
+  font-size: 10px;
+}
+
+.MMM-Nest-Thermostat .dial__lbl--away {
+  font-size: 72px;
+  font-weight: bold;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.MMM-Nest-Thermostat .thermostat {
+  display: inline-block;
+}
+
+.MMM-Nest-Thermostat .thermostat__large {
+  padding: 0 30px;
+}
+
+.MMM-Nest-Thermostat .thermostat__medium {
+  padding: 0 20px;
+}
+
+.MMM-Nest-Thermostat .thermostat__small {
+  padding: 0 10px;
+}
+
+.MMM-Nest-Thermostat .thermostat__mini {
+  padding: 0 5px;
+}
