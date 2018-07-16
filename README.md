@@ -36,7 +36,7 @@ var config = {
         token: 'xxxxxxxxxx',
         size: 'medium',
         onlineOnly: true,
-        whereFilter: ['Downstairs']
+        roomFilter: ['Downstairs']
       }
     }
   ]
@@ -49,6 +49,6 @@ Option           | Type      | Default | Description
 -----------------|-----------|---------|--------------------------------------------------------------
 `animationSpeed` | `int`     | `0`     | Fade In Animation Speed
 `updateInterval` | `int`     | `60000` | Frequency Update
-`whereFilter`    | `array`   | `null`  | Only show Thermostats with these names
+`roomFilter`     | `array`   | `null`  | Only show Thermostats with these room names
 `onlineOnly`     | `boolean` | `true`  | Only show Thermostats that are currently online
 `size`           | `string`  | `large` | One of the following sizes: `large`, `medium`, `small`, `mini`

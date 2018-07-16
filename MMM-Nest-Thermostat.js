@@ -13,7 +13,7 @@ Module.register('MMM-Nest-Thermostat', {
 	defaults: {
 		animationSpeed: 0,
 		updateInterval: 60000,
-		whereFilter: null,
+		roomFilter: null,
 		onlineOnly: true,
 		size: 'large'
 	},
